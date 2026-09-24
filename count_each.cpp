@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    ifstream file("sample.txt"); // open file
+    ifstream file("//Users//mac//Downloads//info_codes//sample.txt"); // open file
     if (!file.is_open())
     {
         cout << "Error: Could not open file!" << endl;
